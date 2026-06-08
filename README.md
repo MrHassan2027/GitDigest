@@ -7,9 +7,9 @@ Parses `git log` output from any repo, groups commits by type (feat / fix / refa
 
 ## Quick Start
 ```bash
-pip install gitdigest
-# or
-git clone https://github.com/yourusername/GitDigest && pip install -e .
+git clone https://github.com/MrHassan2027/GitDigest
+cd GitDigest
+pip install -e .
 
 gitdigest                        # changelog for current repo
 gitdigest --since v1.0.0         # since a tag
